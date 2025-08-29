@@ -16,3 +16,8 @@ This is a simple web application that generates random passwords. It's built wit
 *   HTML
 *   CSS
 *   JavaScript
+
+## Web
+
+URL: https://github.com/mercurialw0rld/random_password_generator/deployments/github-pages
+

@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    background-color: #1C1C1C;
+    font-family: Karla, sans-serif;
+    font-weight: 800;
+    font-style: bolder;
+}
+
+.container{
+    background-color: #1F2937;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+    width: 550px;
+    height: 550px;
+    border-radius: 6px;
+}
+
+.options{
+    position: relative;
+    top: 140px;
+    left: 52px;
+}
+
+.header {
+    color: #FFFFFF;
+    position: relative;
+    top: 115px;
+    left: 52px;
+}
+
+.header h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 0.9;
+}
+
+#random-password-header{
+    color: #0EA5E9
+}
+
+#insecure-password-warning {
+    color: gray;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 15px;
+    width: 372px;
+    height: 28px;
+}
+
+#copy-instructions {
+    color: gray;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 15px;
+    width: 372px;
+    height: 28px;
+    position: absolute;
+    bottom: 120px;
+    left: 550px;
+}
+
+#generate-password-button {
+    background-color: #0EA5E9;
+    width: 191px;
+    height: 42px;
+    border-radius: 6px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 320px;
+    left: 700px;
+}
+
+#password-length-input{
+    background-color: #2F3E53;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 25px;
+    width: 60px;
+    padding: 0 12px;
+    position: absolute;
+    left: 165px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+  -webkit-appearance: none;  /* Chrome, Safari, Edge */
+  appearance: none;          /* Standard */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#generate-password-button:hover {
+    background-color: #0C84B4;
+}
+
+.decoration-line {
+    border-top: 1px solid #2F3E53;
+    margin: 32px 0;
+    position: relative;
+    top: 150px;
+    width: 442px;
+    left: 52px;
+}
+
+.generated-password-dec {
+    width: 211px;
+    height: 39px;
+    background-color: #2F3E53;
+    border-radius: 6px;
+    position: relative;
+    top: 155px;
+    left: 52px;
+}
+
+.generated-password-dec:hover {
+    background-color: #0284C7;
+}
+
+
+.password-generation-container{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+#generated-password-1, #generated-password-2 {
+    color: #7DD3FC;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

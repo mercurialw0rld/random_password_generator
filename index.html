@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Generate a</h1>
+                <h1 id="random-password-header">random password</h1>
+                <p id="insecure-password-warning">Don't use an insecure password ever again.</p>
+            </div>
+
+            <div class="options">
+                <label for="password-length-input" style="color:white;">Password Length:</label>
+                <input id="password-length-input" type="number" min="8" max="20" value="15">
+            </div>
+            <button id="generate-password-button" onclick="generatePassword(document.getElementById('password-length-input').value)">Generate Password</button>
+
+            <div class="decoration-line"></div>
+
+            <div class="password-generation-container">
+                <div class="generated-password-dec" onclick="copyToClipboard('generated-password-1')">
+                    <p id="generated-password-1"></p>
+                </div>
+
+                <div class="generated-password-dec" onclick="copyToClipboard('generated-password-2')">
+                    <p id="generated-password-2"></p>
+                </div>
+            </div>
+            <p id="copy-instructions">(click on password to copy to clipboard!)</p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
